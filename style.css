@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: #fff;
@@ -11,4 +12,47 @@ body {
 
 img {
     max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 85%;
+    padding: 5em 0;
+    margin: 0 auto;
+}
+
+.hero {
+    background-image: url("/images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.hero__btn--link {
+    background-color: #A1D283;
+    padding: .7em 1.5em;
+    text-transform: uppercase;
+    color: #000;
+    border-radius: .85em;
+    font-weight: 600;
+}
+
+.hero__title {
+    font-size: 5rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero__subtext {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.hero__vid {
+    max-width: 100%;
+    margin-top: 2em;
 }
